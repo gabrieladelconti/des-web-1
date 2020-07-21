@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Contato</title>
+    <link rel="stylesheet" href="Contato.css">
+</head>
+
+<body>
+    <header>
+        Desenvolvimento Web I
+    </header>
+
+    <nav>
+        <a href="Index.html" target="_self">Index</a>
+        <a href="Aluno1.html" target="_self">Aluno 1</a>
+        <a href="Contato.html" target="_self">Contato</a>
+    </nav>
+
+    <div>
+        <form action="form.html" method="GET">
+            <legend>Formulário de Contato</legend>
+            <label for="txtNome"><b>Nome:</b></label><br>
+            <input type="text" name="txtNome" id="txtNome"></br>
+
+            <label for="txtEmail"><b>E-mail:</b></label><br>
+            <input type="email" name="txtEmail" id="txtEmail"></br>
+
+            <label for="txtTel"><b>Telefone:</b></label><br>
+            <input type="tel" name="txtTel" id="txtTel"></br>
+
+            <label for="txtPrioridade"><b>Prioridade:</b></label><br>
+            <select id="txtPrioridade" name="txtPrioridade">
+                <option value="alta">Alta</option>
+                <option value="normal">Normal</option>
+                <option value="baixa">Baixa</option>
+            </select><br>
+
+            <p><label for="txtMensagem"><b>Mensagem:</b></label><br>
+            <textarea name="txtMensagem" id="txtMensagem" rows="6" cols="18"
+                placeholder="Mensagem teste!"></textarea></br></p>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Gabriela Soares - 2020 &copy;</p>
+    </footer>
+
+</body>
+
+</html>
